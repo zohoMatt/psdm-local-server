@@ -2,7 +2,7 @@ from flask import Flask
 from psdm.fit_router import fit_app
 
 
-def create_app(test_config=None):
+def create_app():
     app = Flask(__name__)
 
     # Register routers
