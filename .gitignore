@@ -137,3 +137,6 @@ psdm/fit_router/repo/PSDM_functions.py
 
 # Output
 *.csv
+
+# OS
+.DS_Store

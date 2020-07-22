@@ -14,3 +14,8 @@ def create_app():
         download_repo_files()
 
     return app
+
+
+if __name__ == '__main__':
+    server_app = create_app()
+    server_app.run(port=5000, debug=False)
