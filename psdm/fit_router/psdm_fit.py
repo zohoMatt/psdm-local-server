@@ -1,11 +1,9 @@
 import numpy as np
 import pandas as pd
-from itertools import chain
 from psdm.fit_router.repo.PSDM import PSDM
 
-def psdm_kfit(
-        **kwargs
-):
+
+def psdm_kfit(**kwargs):
     default_params = {
         'kf': 2.08e-3,
         'dp': 5.28e-6,
@@ -64,7 +62,7 @@ def psdm_kfit(
         optimize=False
     )
 
-    comp, K, xn, ssq, md = test_column.run_psdm_kfit('Test')
+    _comp, _k, _xn, _ssq, md = test_column.run_psdm_kfit('Test')
     x = md.index.values.tolist()
     y = [n for elem in md.values.tolist() for n in elem]
     return {
