@@ -24,11 +24,9 @@ MODIFIED = "hiddenimports=['pkg_resources.py2_warn']"
 IMPORTS = 'import sys\nsys.setrecursionlimit(5000)\n'
 
 print('>>> Start second-time package')
-print(path.getsize('__init__.spec'))
 with open('__init__.spec', 'r+') as file:
     raw = file.read()
 
-    print('File content: ', raw)
     file.seek(0)
     file.write(IMPORTS + raw.replace(RAW, MODIFIED))
     file.truncate()

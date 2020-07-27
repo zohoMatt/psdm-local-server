@@ -10,17 +10,25 @@ dependencies:
   - chardet=3.0.4=py38_1003
   - click=7.1.2=py_0
   - cryptography=2.9.2=py38ha12b0ac_0
+  - cycler=0.10.0=py38_0
+  - et_xmlfile=1.0.1=py_1001
   - flask=1.1.2=py_0
   - flask-cors=3.0.8=py_0
+  - freetype=2.10.2=ha233b18_0
   - idna=2.10=py_0
   - intel-openmp=2019.4=233
   - itsdangerous=1.1.0=py_0
+  - jdcal=1.4.1=py_0
   - jinja2=2.11.2=py_0
+  - kiwisolver=1.2.0=py38h04f5b5a_0
   - libcxx=10.0.0=1
   - libedit=3.1.20191231=h1de35cc_1
   - libffi=3.3=hb1e8313_2
   - libgfortran=3.0.1=h93005f0_2
+  - libpng=1.6.37=ha441bb4_0
   - markupsafe=1.1.1=py38h1de35cc_1
+  - matplotlib=3.2.2=0
+  - matplotlib-base=3.2.2=py38h5670ca0_0
   - mkl=2019.4=233
   - mkl-service=2.3.0=py38hfbe908c_0
   - mkl_fft=1.1.0=py38hc64f4ea_0
@@ -28,12 +36,17 @@ dependencies:
   - ncurses=6.2=h0a44026_1
   - numpy=1.18.5=py38h1da2735_0
   - numpy-base=1.18.5=py38h3304bdc_0
+  - openpyxl=3.0.4=py_0
   - openssl=1.1.1g=h1de35cc_0
+  - pandas=1.0.5=py38h959d312_0
   - pip=20.1.1=py38_1
   - pycparser=2.20=py_2
   - pyopenssl=19.1.0=py_1
+  - pyparsing=2.4.7=py_0
   - pysocks=1.7.1=py38_1
   - python=3.8.3=h26836e1_2
+  - python-dateutil=2.8.1=py_0
+  - pytz=2020.1=py_0
   - readline=8.0=h1de35cc_0
   - requests=2.24.0=py_0
   - scipy=1.5.0=py38hbab996c_0
@@ -41,10 +54,10 @@ dependencies:
   - six=1.15.0=py_0
   - sqlite=3.32.3=hffcf06c_0
   - tk=8.6.10=hb0a8c7a_0
+  - tornado=6.0.4=py38h1de35cc_1
   - urllib3=1.25.9=py_0
   - werkzeug=1.0.1=py_0
   - wheel=0.34.2=py38_0
   - xz=5.2.5=h1de35cc_0
   - zlib=1.2.11=h1de35cc_3
-prefix: /Users/MattZo/opt/anaconda3/envs/psdm
 
